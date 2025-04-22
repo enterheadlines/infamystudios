@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 5em;
+  }
+  nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  section {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  .app-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #333;
+    color: #0ff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #888;
+  }
+  .highlight {
+    color: #ff4081;
+  }
+  /* Docs styles */
+  #docs {
+    background: #111;
+    color: #ccc;
+    padding: 40px 20px;
+  }
+  #docs h2, #docs h3 {
+    color: #0ff;
+  }
+  #docs code {
+    background: #222;
+    color: #ffcc00;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+  #docs ul {
+    padding-left: 20px;
+  }
+  #docs a {
+    color: #0ff;
+  }
+   /* Style for the Google Translate widget container */
+ #google_translate_container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: #333; /* Black theme */
+    border: 1px solid #202020;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: white; /* Text color for better visibility */
+}
+
+#google_translate_container select {
+    font-size: 14px;
+    padding: 5px;
+    background-color: #444; /* Darker background for select */
+    color: white; /* Text color for select */
+    border: 1px solid #666; /* Border color for select */
+}
